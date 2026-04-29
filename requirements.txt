@@ -1,0 +1,16 @@
+pandas
+numpy
+scikit-learn
+sqlalchemy
+pymysql
+mlflow
+dvc
+evidently
+fastapi
+uvicorn
+python-dotenv
+ensure
+python-box
+pyyaml
+joblib
+-e .
