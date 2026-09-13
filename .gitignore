@@ -30,11 +30,18 @@ ENV/
 .idea/
 
 # Project Specific
-artifacts/
+artifacts/*
+!artifacts/model_trainer/
+artifacts/model_trainer/*
+!artifacts/model_trainer/model.pkl
+!artifacts/data_transformation/
+artifacts/data_transformation/*
+!artifacts/data_transformation/preprocessor.pkl
 logs/
 data/
 reports/
 .env
+*.pem
 
 # DVC
 .dvc/cache
